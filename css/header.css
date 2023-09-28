@@ -1,12 +1,26 @@
 header {
   border-bottom: 1px solid #3a3a3c;
   margin-bottom: 10px;
+  height: 40px;
 }
 
 .header-bar__icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 30px;
-  height: 30px;
+}
+
+.wordle {
+  font-size: 35px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.header-bar__righticons {
+  display: flex;
+  width: 30px;
+  position: absolute;
+  left: 93%;
 }

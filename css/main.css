@@ -21,3 +21,7 @@ main {
   width: 70px;
   height: 70px;
 }
+
+.keyboard-block {
+  font-size: 10px;
+}

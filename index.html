@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WORDLE</title>
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -14,15 +13,18 @@
     <header>
       <div class="header-bar">
         <div class="header-bar__icons">
-          <img src="assets/hamburger.svg" alt="hamburger" />
-          <div>Wordle</div>
-          <img src="assets/question.svg" alt="question" />
-          <img src="assets/setting.svg" alt="setting" />
-          <img src="assets/static.svg" alt="static" />
+          <img class="hamburger" src="assets/hamburger.svg" alt="hamburger" />
+          <div class="wordle">Wordle</div>
+          <div class="header-bar__righticons">
+            <img class="question" src="assets/question.svg" alt="question" />
+            <img class="setting" src="assets/setting.svg" alt="setting" />
+            <img class="static" src="assets/static.svg" alt="static" />
+          </div>
         </div>
       </div>
     </header>
     <main>
+      <div id="timer">00:00</div>
       <div class="board-row row-0">
         <div class="board-block" data-index="00"></div>
         <div class="board-block" data-index="01"></div>
@@ -105,6 +107,6 @@
       </div>
     </footer>
 
-    <script src="index.html"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
